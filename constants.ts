@@ -3,7 +3,7 @@ import { Instagram, Video, CheckCircle, Rocket, ShieldCheck, MessageSquare, Tag,
 
 const whatsappMessage = encodeURIComponent("Olá! Vim pela página da Axify Social e gostaria de mais informações sobre os serviços.");
 export const WHATSAPP_LINK = `https://wa.me/5553991257648?text=${whatsappMessage}`;
-export const SIMULATOR_LINK = "/#axify-lab"; // Placeholder link
+export const SIMULATOR_LINK = "https://axify-lab.vercel.app/"; // Placeholder link
 
 export const FEATURES: Feature[] = [
   { icon: Rocket, text: "Entrega automática" },
